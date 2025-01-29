@@ -1,7 +1,7 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter, Route, Routes, Navigate } from 'react-router-dom';  // Corrected import
 import Home from './pages/home/Home';
-import MyState from './context/data/MyState'; // Make sure this file exists and is correct
+import MyState from './context/data/MyState'; 
 import Order from './pages/order/Order';
 import NoPage from './pages/nopage/NoPage';
 import Cart from './pages/cart/Cart';
@@ -44,7 +44,7 @@ function App() {
           <Route path="/productinfo" element={<ProductInfo />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/allproducts" element={<Allproducts />} /> {/* Added closing tag */}
+          <Route path="/allproducts" element={<Allproducts />} />
 
           {/* Protected routes */}
           <Route 
