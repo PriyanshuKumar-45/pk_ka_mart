@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter, Route, Routes, Navigate } from 'react-router-dom';  // Corrected import
 import Home from './pages/home/Home';
-import MyState from './context/data/MyState'; 
+import MyState from './context/data/MyState.jsx'; 
 import Order from './pages/order/Order';
 import NoPage from './pages/nopage/NoPage';
 import Cart from './pages/cart/Cart';
