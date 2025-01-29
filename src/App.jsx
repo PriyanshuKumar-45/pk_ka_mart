@@ -35,7 +35,7 @@ const ProtectedRoutesForAdmin = ({ children }) => {
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <MyState>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -77,7 +77,7 @@ function App() {
         </Routes>
         <ToastContainer />
       </MyState>
-    </Router>
+    </HashRouter>
   );
 }
 
