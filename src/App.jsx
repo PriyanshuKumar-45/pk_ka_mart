@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter, Route, Routes, Navigate } from 'react-router-dom';  // Corrected import
 import Home from './pages/home/Home';
-import MyState from './context/data/MyState'; 
+import MyState from './context/data/myState'; 
 import Order from './pages/order/Order';
 import NoPage from './pages/nopage/NoPage';
 import Cart from './pages/cart/Cart';
@@ -13,7 +13,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Allproducts from './pages/allproducts/Allproducts';
 import UpdateProduct from './pages/admin/page/UpdateProduct';
-import AddProduct from './pages/admin/page/AddProduct';
+import AddProduct from './pages/admin/page/AddProduct'
 
 // Route Protection for authenticated users
 const ProtectedRoutes = ({ children }) => {
