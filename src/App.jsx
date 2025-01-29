@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Home from './pages/home/Home';
 import MyState from './context/data/MyState'; // Make sure this file exists and is correct
 import Order from './pages/order/Order';
