@@ -14,7 +14,10 @@ import 'react-toastify/dist/ReactToastify.css';
 import Allproducts from './pages/allproducts/Allproducts';
 import UpdateProduct from './pages/admin/page/UpdateProduct';
 import AddProduct from './pages/admin/page/AddProduct';
-
+import ReturnPolicy from "./pages/ReturnPolicy"
+import AboutUs from "./pages/AboutUs";
+import PrivacyPolicy from "./pages/PrivacyPolicy"
+import LocalForVocal from "./pages/LocalForVocal"
 // Route Protection for authenticated users
 const ProtectedRoutes = ({ children }) => {
   const user = localStorage.getItem('user');
@@ -45,7 +48,10 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/allproducts" element={<Allproducts />} />
-
+          <Route path="/returnpolicy" element={<ReturnPolicy/>}/>
+          <Route path="/AboutUs" element={<AboutUs/>}/>
+          <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>}/>
+          <Route path="/LocalForVocal" element={<LocalForVocal/>}/>
           {/* Protected routes */}
           <Route 
             path="/dashboard" 

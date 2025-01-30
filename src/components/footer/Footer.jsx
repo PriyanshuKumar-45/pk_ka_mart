@@ -28,11 +28,13 @@ export default function Footer() {
                                 <Link to="/" className={`transition-colors duration-300 ${textColor} ${linkHoverColor}`}>Home</Link>
                             </li>
                             <li>
+                                <Link to="/LocalForVocal" className={`transition-colors duration-300 ${textColor} ${linkHoverColor}`}>LocalForVocal</Link>
+                            </li>
+   
+                            <li>
                                 <Link to="/order" className={`transition-colors duration-300 ${textColor} ${linkHoverColor}`}>Order</Link>
                             </li>
-                            <li>
-                                <Link to="/local-for-vocal" className={`transition-colors duration-300 ${textColor} ${linkHoverColor}`}>Local For Vocal</Link>
-                            </li>
+                          
                             <li>
                                 <Link to="/cart" className={`transition-colors duration-300 ${textColor} ${linkHoverColor}`}>Cart</Link>
                             </li>
@@ -48,10 +50,7 @@ export default function Footer() {
                                 <Link to="/returnpolicy" className={`transition-colors duration-300 ${textColor} ${linkHoverColor}`}>Return Policy</Link>
                             </li>
                             <li>
-                                <Link to="/about" className={`transition-colors duration-300 ${textColor} ${linkHoverColor}`}>About</Link>
-                            </li>
-                            <li>
-                                <Link to="/contact" className={`transition-colors duration-300 ${textColor} ${linkHoverColor}`}>Contact Us</Link>
+                                <Link to="/AboutUs" className={`transition-colors duration-300 ${textColor} ${linkHoverColor}`}>About Us</Link>
                             </li>
                         </ul>
                     </div>
