@@ -1,12 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';  // Your global styles (optional)
-import App from './App';  // Your main App component
-import { HashRouter } from 'react-router-dom';  // Import HashRouter
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+import { Provider } from 'react-redux'
+import { store } from './redux/store.jsx'
 
-ReactDOM.render(
-  <HashRouter basename="/pk_ka_mart/">  {/* Wrap your app with HashRouter */}
-    <App />
-  </HashRouter>,
-  document.getElementById('root')  // Renders the app inside the div with id 'root'
-);
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.StrictMode>,
+)
