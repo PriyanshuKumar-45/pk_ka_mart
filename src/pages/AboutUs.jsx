@@ -41,7 +41,7 @@ function AboutUs() {
         <p className="mt-2">
           <strong>Priyanshu Srivastava</strong>, the founder of our company, had a vision to create a business that not only
           provided great products but also delivered a memorable experience to each customer. With a background
-          in e-commerce and a passion for quality,  Mr Pk launched this company with the goal of making online shopping
+          in e-commerce and a passion for quality,  Mr Srivastava launched this company with the goal of making online shopping
           a hassle-free experience for everyone.
         </p>
 
